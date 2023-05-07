@@ -1,0 +1,16 @@
+[
+  {
+    "connectionname": "TuyaDevice",
+    "type": 2,
+    "audiosource": false,
+    "videosource": false,
+    "consumer": false,
+    "facing": 1,
+    "id": 5001,
+    "classes": [
+      {
+        "classname": "LIGHT_V2"
+      }
+    ]
+  }
+]

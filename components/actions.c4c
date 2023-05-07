@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Scan Devices",
+    "command": "scan_devices"
+  },
+  {
+    "name": "Populate Devices",
+    "command": "populate_devices"
+  }
+]

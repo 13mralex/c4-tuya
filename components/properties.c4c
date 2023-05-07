@@ -1,0 +1,60 @@
+[
+  {
+    "name": "Debug Mode",
+    "type": "LIST",
+    "default": "Off",
+    "readonly": false,
+    "items": [
+      "Off",
+      "On"
+    ]
+  },
+  {
+    "name": "Server Address",
+    "type": "STRING",
+    "default": "",
+    "readonly": false
+  },
+  {
+    "name": "Device Selector",
+    "type": "DYNAMIC_LIST",
+    "default": "",
+    "readonly": false
+  },
+  {
+    "name": "Device Properties",
+    "type": "LABEL",
+    "default": "Device Properties",
+    "readonly": false
+  },
+  {
+    "name": "Device Name",
+    "type": "STRING",
+    "default": "",
+    "readonly": true
+  },
+  {
+    "name": "Device ID",
+    "type": "STRING",
+    "default": "",
+    "readonly": true
+  },
+  {
+    "name": "Device Key",
+    "type": "STRING",
+    "default": "",
+    "readonly": true
+  },
+  {
+    "name": "Device IP",
+    "type": "STRING",
+    "default": "",
+    "readonly": true
+  },
+  {
+    "name": "Device Version",
+    "type": "STRING",
+    "default": "",
+    "readonly": true
+  }
+]

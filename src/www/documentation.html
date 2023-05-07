@@ -1,0 +1,32 @@
+<style>
+    body {
+        font-family: Helvetica;
+    }
+</style>
+<h1 id="tuya-ip-control">Tuya IP Control</h1>
+<p>This is a simple driver to bridge Tuya devices and Control4.</p>
+<h2 id="python-setup">Python Setup</h2>
+<p>Python3 and pip need to be installed.</p>
+<ul>
+<li>Install dependencies<ul>
+<li><code>pip3 install tinytuya flask</code></li>
+</ul>
+</li>
+<li>Configure TinyTuya<ul>
+<li>Follow <a href="https://github.com/jasonacox/tinytuya#setup-wizard---getting-local-keys">these</a> instructions</li>
+<li>Be sure <code>app.py</code> is in the same directory, as the script will read the generated JSON files.</li>
+<li>Make sure devices and their keys are present when running <code>python -m tinytuya scan</code> after pairing your Tuya Dev account.</li>
+</ul>
+</li>
+</ul>
+<h2 id="control4-setup">Control4 Setup</h2>
+<ul>
+<li>Input server IP/port in Device Address Property<ul>
+<li>Default port is 5000</li>
+<li><code>ip:5000</code></li>
+</ul>
+</li>
+<li>Run Scan Devices from Actions. This will take 15 seconds to complete.</li>
+<li>Devices should populate in Device Selector.</li>
+<li>After selecting the device, the driver is ready to use.</li>
+</ul>

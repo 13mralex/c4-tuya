@@ -1,0 +1,8 @@
+[
+    {
+      "id": 5001,
+      "name": "Tuya",
+      "primary": true,
+      "proxy": "light_v2"
+    }
+  ]
