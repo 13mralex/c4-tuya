@@ -5,7 +5,7 @@ Python3 and pip need to be installed.
 - Install dependencies
   - `pip3 install tinytuya flask`
 - Configure TinyTuya
-  - Follow [these](https://github.com/jasonacox/tinytuya#setup-wizard---getting-local-keys) instructions
+  - Follow [these](https://github.com/jasonacox/tinytuya#tinytuya-installation) instructions
   - Be sure `app.py` is in the same directory, as the script will read the generated JSON files.
   - Make sure devices and their keys are present when running `python -m tinytuya scan` after pairing your Tuya Dev account.
 
