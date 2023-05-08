@@ -147,7 +147,7 @@ def gen_payload(d, cmd):
 
         print("new hexval:",hexvalue)
 
-        #payload[d.DPS_INDEX_MODE[d.bulb_type]] = d.DPS_MODE_COLOUR
+        payload[d.DPS_INDEX_MODE[d.bulb_type]] = d.DPS_MODE_COLOUR
         payload[d.DPS_INDEX_COLOUR[d.bulb_type]] = hexvalue
 
     def setWhite(tempPct):
@@ -156,7 +156,7 @@ def gen_payload(d, cmd):
 
         temp = pctToTypeVal(tempPct)
 
-        #payload[d.DPS_INDEX_MODE[d.bulb_type]] = d.DPS_MODE_WHITE
+        payload[d.DPS_INDEX_MODE[d.bulb_type]] = d.DPS_MODE_WHITE
         payload[d.DPS_INDEX_COLOURTEMP[d.bulb_type]] = temp
 
     if cmd["mode"] == "color" or cmd["mode"] == "both":
