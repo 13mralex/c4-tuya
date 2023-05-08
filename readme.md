@@ -16,3 +16,7 @@ Python3 and pip need to be installed.
 - Run Scan Devices from Actions. This will take 15 seconds to complete.
 - Devices should populate in Device Selector.
 - After selecting the device, the driver is ready to use.
+
+## Notes
+- If new devices are added, the wizard needs to run again:
+  - `python3 -m tinytuya wizard`
